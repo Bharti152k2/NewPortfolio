@@ -1,0 +1,79 @@
+nav {
+  height: 80px;
+  padding: 13px;
+  background-color: rgb(1, 1, 65);
+  display: flex;
+}
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  font-family: "Pacifico", cursive;
+}
+nav .logo:hover {
+  color: green;
+}
+
+.links {
+  height: 50px;
+  width: 30%;
+  margin-left: 250px;
+  padding: 13px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 15px;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  transition: all 0.5s ease-in-out;
+}
+.links .active,
+.links a:hover {
+  color: green;
+  text-shadow: 1px 1px 1px rgb(3, 3, 117);
+}
+.menu {
+  background-color: white;
+  border-radius: 2px;
+}
+@media (min-width: 350px) and (max-width: 500px) {
+  nav {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+  }
+  nav .logo {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    font-family: "Pacifico", cursive;
+  }
+  .links {
+    height: 25px;
+    width: 260px;
+    margin-left: 20px;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+  }
+}

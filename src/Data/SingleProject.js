@@ -1,0 +1,86 @@
+export let projects = [
+  {
+    id: 1,
+    title: "Company Clone",
+    tech: "using  Html and Css",
+    img: "./src/assets/company.png",
+  },
+  {
+    id: 2,
+    title: "POC project",
+    tech: "using Html, Css and Js",
+    img: "./src/assets/US1.png",
+  },
+  {
+    id: 3,
+    title: "Portfolio",
+    tech: "using Html,Css AND Js",
+    img: "./src/assets/portfolioHCJ.png",
+  },
+  {
+    id: 4,
+    title: "Movie API",
+    tech: "using Html, Css and Js",
+    img: "./src/assets/movieHCJ.png",
+  },
+  {
+    id: 5,
+    title: "Weather API",
+    tech: "using Html, Css and Js",
+    img: "./src/assets/wetherHCJ.png",
+  },
+  {
+    id: 6,
+    title: "Get the user data from local storage",
+    tech: "using Html, Css and Js",
+    img: "./src/assets/US3.png",
+  },
+  {
+    id: 7,
+    title: "Minimaxing Clone",
+    tech: "using Html, Css and Js",
+    img: "./src/assets/minimaxing.png",
+  },
+  {
+    id: 8,
+    title: "Movie API",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/movieR.png",
+  },
+  {
+    id: 9,
+    title: "Todo App",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/todoApp.png",
+  },
+  {
+    id: 10,
+    title: "Weather API",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/weather.png",
+  },
+  {
+    id: 11,
+    title: "Onclick Product added",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/productsApi.png",
+  },
+  {
+    id: 12,
+    title: "FAQ",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/faq.png",
+  },
+  {
+    id: 13,
+    title: "EMI Calculator",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/emi.png",
+  },
+  {
+    id: 14,
+    title: "Form Validation",
+    tech: "using Html, Css, Js and React",
+    img: "./src/assets/formvlid.png",
+  },
+];

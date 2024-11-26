@@ -1,0 +1,63 @@
+.contact {
+  height: 615px;
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(azure, white);
+}
+.form h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: darkblue;
+}
+.form h3 {
+  margin-bottom: 20px;
+  color: green;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px 30px;
+}
+.form input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  font-size: 17px;
+  outline: none;
+  background: transparent;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+textarea {
+  font-size: 17px;
+  width: 400px;
+  height: 70px;
+  margin-bottom: 20px;
+  outline: none;
+  background: transparent;
+}
+.Cbtn {
+  width: 150px;
+  height: 37px;
+  font-size: 19px;
+  background-color: green;
+  color: white;
+}
+.details {
+  width: 28%;
+  padding: 80px 30px;
+}
+.details h2 {
+  margin-bottom: 20px;
+  color: darkblue;
+}
+.details p {
+  margin-bottom: 20px;
+}

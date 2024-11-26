@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  height: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+.app {
+  margin: 10px auto;
+}
+.routes {
+  margin-bottom: 20px;
+}
+.routes a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  letter-spacing: 1px;
+  transition: all 1s;
+}
+.routes a:hover {
+  color: green;
+}

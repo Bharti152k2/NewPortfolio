@@ -1,0 +1,91 @@
+.projects {
+  height: 1800px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(rgba(242, 254, 254, 0.753), white);
+}
+.projects h1 {
+  font-size: 35px;
+  color: darkblue;
+}
+.cards {
+  height: 680px;
+  width: 75%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  gap: 30px;
+}
+.card {
+  height: 300px;
+  width: 330px;
+  padding: 50px 10px 25px 10px;
+  background-image: url(../assets/bg.jpg);
+}
+.card h3 {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.2;
+  font-size: 15px;
+}
+.card img {
+  margin-top: 20px;
+  height: 50%;
+  width: 85%;
+}
+.card .btn {
+  transition: all 1s ease-in-out;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  color: darkblue;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+@media (min-width: 350px) and (max-width: 500px) {
+  .projects {
+    height: 4800px;
+  }
+  .projects h1 {
+    font-size: 25px;
+  }
+  .cards {
+    border: 2px solid green;
+    height: 4700px;
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    padding: 24px;
+    gap: 30px;
+  }
+  .card {
+    height: 270px;
+    width: 300px;
+  }
+  /** done */
+  .card h3 {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.2;
+    font-size: 15px;
+  }
+  .card img {
+    margin-top: 20px;
+    height: 50%;
+    width: 85%;
+  }
+  .card .btn {
+    transition: all 1s ease-in-out;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    color: darkblue;
+  }
+  .btn:hover {
+    background-color: green;
+    color: white;
+  }
+}

@@ -1,0 +1,117 @@
+.main-sec {
+  height: 615px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/IMG_20240408_213221.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.intro {
+  animation: intro 5s 1s infinite normal;
+}
+@keyframes intro {
+  from {
+    width: 35%;
+    height: 20%;
+    position: absolute;
+    top: 250px;
+    left: -100px;
+  }
+  to {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+  }
+}
+.intro h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Pacifico", cursive;
+}
+
+span {
+  color: rgb(5, 5, 104);
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}
+.intro h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: lighter;
+  font-family: "Pacifico", cursive;
+}
+.resumebtn {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(139, 202, 223);
+  border-radius: 10px;
+  font-weight: 700;
+  color: green;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 150px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 1s ease-in-out;
+}
+.resumebtn:hover {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 150px;
+  height: 42px;
+}
+a {
+  text-decoration: none;
+}
+@media (min-width: 350px) and (max-width: 500px) {
+  .main-sec {
+    height: 240px;
+  }
+  @keyframes intro {
+    from {
+      width: 35%;
+      position: absolute;
+      top: 80px;
+      left: -190px;
+    }
+    to {
+      width: 35%;
+      position: absolute;
+      top: 80px;
+      left: 20px;
+    }
+  }
+  .intro h1 {
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+  .intro h3 {
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  .resumebtn {
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+  }
+  .resumebtn:hover {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.app {
+  width: 200px;
+  font-size: 25px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 1s ease-in-out;
+}
+.app a {
+  color: white;
+  transition: all 1s ease-in-out;
+}
+.app :hover {
+  color: green;
+  transform: translateY(-2px);
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .app {
+    width: 70px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: all 1s ease-in-out;
+  }
+  .app a {
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+}
